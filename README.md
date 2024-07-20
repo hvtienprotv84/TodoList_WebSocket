@@ -7,11 +7,11 @@
 
 # RUN
 
-- **Client**
+## **Client**
 - `npm install`
 - `npm start`
 
-- **Server**
+## **Server**
 - `npm install`
 - `npm start`
 
