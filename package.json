@@ -1,0 +1,25 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "my first websocket app",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "watch": "nodemon server.mjs",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "test",
+    "codecamp"
+  ],
+  "author": "DanielTheEnthomologist",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

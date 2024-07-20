@@ -1,0 +1,10 @@
+@import "../../styles/settings.scss";
+
+.connected {
+  background: $color-success;
+  color: $color-light;
+}
+.disconnected {
+  background: $color-warning;
+  color: $color-light;
+}

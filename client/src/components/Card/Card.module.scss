@@ -1,0 +1,43 @@
+@import "../../styles/settings.scss";
+
+.card {
+  position: relative;
+  background: $color-light;
+  border: 1px solid lighten($color-dark, 60%);
+  padding: $base-size;
+  margin: 0 0 $base-size 0;
+  border-radius: $radius;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: $color-dark;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // width: $base-size * 4;
+    button {
+      color: $color-dark;
+      background-color: $color-light;
+      padding: calc($base-size / 2);
+      border: none;
+      border-radius: $radius;
+      cursor: pointer;
+
+      &:hover {
+        background: darken($color-light, 10%);
+      }
+    }
+    button.isFavorite {
+      color: $color-warning;
+    }
+  }
+}
